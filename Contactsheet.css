@@ -1,0 +1,98 @@
+html *
+{
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', Arial, Helvetica, sans-serif;
+
+}
+header{
+background: linear-gradient(to right, #FFFFFF 30% ,#FF4719 100%); 
+background: -webkit-linear-gradient(left, #FFFFFF 30% ,#FF4719 100%); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #FFFFFF 30% ,#FF4719 100%); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(to right, #FFFFFF 30% ,#FF4719 100%); /* For Firefox 3.6 to 15 */
+height:130px;
+width:98%;
+margin-left:1%;
+box-shadow: 3px 3px 7px black;
+}
+a{
+color:#1F1F14;
+ text-decoration: none;
+}
+a:hover{color:white;}
+#navg{
+color:#1F1F14;
+background-color:#FF4719;
+margin-top:15px;
+margin-left:10%;
+height:45px;
+width:80%;
+cursor:default;
+border-radius:3px;
+box-shadow: 2px 0px 7px black;
+}
+footer{
+background-color:#FF4719;
+clear:both;
+height:50px;
+width:98%;
+margin-left:1%;
+margin-top:860px;
+border-radius:3px;
+box-shadow: 2px 2px 7px black;
+}
+#search{
+margin-top:10px;
+clear:both;
+float:right;
+width:10%;
+margin-right:2%;
+}
+#searchbar{
+width:100%;
+height:20px;
+float:right;
+}
+.navlist{
+margin-left:5%;
+display:inline;
+font-size:25px;
+}
+.navlist:first-child{
+margin-left:23%;
+}
+#Language{
+float:right;
+margin-right:2%;
+margin-top:10px;
+}
+#Contact{
+clear:both;
+float:left;
+margin-left:10%;
+width:80%;
+height:850px;
+border-radius:3px;
+box-shadow: 2px 2px 7px black;
+}
+#Contact p{
+float:left;
+clear:left;
+margin-left:10%;
+}
+#map{
+clear:both;
+float:left;
+height:250px;
+width:50%;
+}
+#qrid
+{
+margin-top:-45px;
+float:right;
+height:150px;
+width:50%;
+}
+#Address{
+margin-left:10%;
+height:300px;
+width:80%;
+}
